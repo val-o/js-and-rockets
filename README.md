@@ -61,7 +61,8 @@ Your solution is expected to render the following:
 
 ## Clarifications:
 
-- You can use **any** libraries you see fit.
+- You can use any **utiliy** libraries you see fit (please don't use React, Angular or Vue)
+- Make sure the specs are green
 - You can request the data from `https://api.spacexdata.com/v3/launches/past`, but you are not allowed to use any of the filter parameters provided by the SpaceX API.
 - It doesn't matter to which NASA program each payload belongs to as long as NASA is the customer.
 - Payloads are carried in the second stage of a rocket and they can belong to multiple customers.
