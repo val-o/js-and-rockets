@@ -1,7 +1,7 @@
 import * as A from 'fp-ts/Array';
-import { pipe, Predicate } from 'fp-ts/lib/function';
-import { and } from './utils/predicate';
+import { pipe } from 'fp-ts/lib/function';
 import * as Launch from './Launch';
+import { and } from './utils/predicate';
 
 export const prepareData = (data: Launch.Launch[]) =>
   pipe(

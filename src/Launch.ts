@@ -1,11 +1,8 @@
-import * as Ord from 'fp-ts/Ord';
-import * as DateF from 'fp-ts/Date';
-import * as M from 'fp-ts/Monoid';
-import * as Num from 'fp-ts/number';
-import * as O from 'fp-ts/Option';
-import * as NA from 'fp-ts/NonEmptyArray';
 import * as A from 'fp-ts/Array';
-import { flow, pipe } from 'fp-ts/lib/function';
+import * as DateF from 'fp-ts/Date';
+import { pipe } from 'fp-ts/lib/function';
+import * as Num from 'fp-ts/number';
+import * as Ord from 'fp-ts/Ord';
 
 //#region Definitions
 

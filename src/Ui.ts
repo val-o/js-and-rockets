@@ -1,8 +1,6 @@
-import * as Launch from './Launch';
-import { pipe } from 'fp-ts/lib/function';
-import * as TE from 'fp-ts/TaskEither';
-import * as T from 'fp-ts/Task';
 import * as E from 'fp-ts/Either';
+import { pipe } from 'fp-ts/lib/function';
+import * as Launch from './Launch';
 
 export const renderData = (missions: object[]) => {
   const outlet = document.getElementById('out')!;

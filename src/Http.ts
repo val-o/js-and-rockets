@@ -1,8 +1,7 @@
-import { constUndefined, pipe } from 'fp-ts/lib/function';
-import * as TE from 'fp-ts/TaskEither';
-import * as T from 'fp-ts/Task';
 import * as E from 'fp-ts/Either';
+import { constUndefined, pipe } from 'fp-ts/lib/function';
 import * as O from 'fp-ts/Option';
+import * as TE from 'fp-ts/TaskEither';
 
 export const getJson = <T>(req: RequestInfo): TE.TaskEither<HttpError, T> => {
   return pipe(

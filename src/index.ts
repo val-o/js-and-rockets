@@ -1,11 +1,10 @@
-import * as LaunchGateway from './LaunchGateway';
-import * as Http from './Http';
 import { pipe } from 'fp-ts/lib/function';
-import * as TE from 'fp-ts/TaskEither';
 import * as T from 'fp-ts/Task';
-import * as E from 'fp-ts/Either';
-import * as Ui from './Ui';
+import * as TE from 'fp-ts/TaskEither';
+import * as Http from './Http';
+import * as LaunchGateway from './LaunchGateway';
 import * as Solution from './Solution';
+import * as Ui from './Ui';
 
 console.log('Hello from %csrc/index.js', 'font-weight:bold');
 
