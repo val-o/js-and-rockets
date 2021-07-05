@@ -1,4 +1,8 @@
+## Comments from author
+Please let me know if you would like to see implementation wihout fp-ts! I will rewrite it
+
 # JS & Rockets
+
 
 Welcome to our little coding exercise. During this test you will be given the opportunity to play with Javascript and rockets, in the same project. Some people might be horrified at the thought of this being even a possibility. But Javascript is what we do isn't it?
 
