@@ -53,11 +53,11 @@ export const hasPayloadOf = (customer: string) => (launch: Launch): boolean => {
   if (!payloads.length) {
     return false;
   }
-  const isNasaCustomer = (cust: string) => cust.includes(customer);
+  const isCustomer = (cust: string) => cust.includes(customer);
 
   return pipe(
     payloads,
-    A.some((pl) => pipe(pl.customers, A.some(isNasaCustomer)))
+    A.some((pl) => pipe(pl.customers, A.some(isCustomer)))
   );
 };
 
